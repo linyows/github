@@ -1,4 +1,5 @@
 load File.expand_path("../tasks/github.rake", __FILE__)
+load File.expand_path("../tasks/github_release.rake", __FILE__)
 
 require "capistrano/github/version"
 require "capistrano/github/api"
